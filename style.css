@@ -1,0 +1,309 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+/* Common */
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.row {
+  padding: 32px 0;
+  margin: 0 -8px;
+}
+
+.col-2 {
+  float: left;
+  width: 50%;
+}
+
+.col-3 {
+  float: left;
+  width: 33.3333%;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+/* Header */
+#header {
+  position: fixed;
+  top:0;
+  z-index: 1;
+  height: 46px;
+  width: 100%;
+  background-color: #000;
+}
+
+/* Nav */
+.nav {
+  display: inline-block;
+}
+
+.nav__item {
+  display: inline-block;
+  padding: 12px 24px;
+}
+
+.nav__dropdown {
+  display: inline-block;
+}
+
+.nav__dropdown:hover .dropdown__content {
+  display: block;
+}
+
+.dropdown__content {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.dropdown__item {
+  display: block;
+  min-width: 160px;
+  padding: 8px 16px;
+  color: #000;
+}
+
+.dropdown__item:hover {
+  background-color: #ccc;
+}
+
+/* Search */
+.search {
+  float: right;
+  padding: 12px 24px;
+  color: #fff;
+}
+
+.search:hover {
+  background-color: #f44336;
+}
+
+/* Main */
+#main {
+  margin-top: 46px;
+}
+
+/* Slider */
+.main__slider {
+  position: relative;
+  padding-top: 50%;
+  color:#fff;
+  background: url('https://www.w3schools.com/w3images/ny.jpg') top center / cover no-repeat;
+  text-align: center;
+}
+
+.slider__content {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  padding: 32px 16px;
+  transform: translate(-50%, 0%);
+}
+
+.slider__content h3 {
+  margin: 10px 0;
+}
+
+.slider__content p {
+  margin: 15px 0;
+}
+
+/* Section */
+.section {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 64px 16px;
+  text-align: center;
+}
+
+.section--light {
+  background-color: #fff;
+  color: #000;
+}
+
+.section--dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.section h2 {
+  margin: 10px 0;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.section p {
+  margin: 15px 0;
+  opacity: 0.6;
+}
+
+.section__about {
+  text-align: justify;
+}
+
+.member__avatar {
+  width: 60%;
+  margin-bottom: 16px;
+  vertical-align: middle;
+}
+
+/* Tour */
+.calendar__month {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  color: #757575;
+  list-style-type: none;
+  text-align: left;
+}
+
+.calendar__note {
+  float:right;
+  padding: 0 8px;
+  margin-right: 16px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.calendar__note--sold-out {
+  display: inline-block;
+  padding: 0 8px;
+  margin-left: 16px;
+  background-color: #f44336;
+  color: #fff;
+}
+
+.ticket {
+  color: #000;
+  text-align: left;
+  padding: 0 8px;
+}
+
+.ticket img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.ticket img:hover {
+  opacity: 0.6;
+}
+
+.ticket__body {
+  margin-top: -15px;
+  padding: 15px 16px 0;
+  background-color: #fff;
+}
+
+p.ticket__city {
+  opacity: 1;
+}
+
+p.ticket__about {
+  color: #000;
+  opacity: 1;
+}
+
+.ticket__body button {
+  padding: 8px 16px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+/* Contact */
+.contact__detail {
+  padding: 0 8px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.contact__detail i {
+  width: 30px;
+}
+
+.contact__form {
+  padding-right: 8px;
+}
+
+.contact__form input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.form__column {
+  float: left;
+  width: 50%;
+}
+
+.form__column + .form__column {
+  padding-left: 16px;
+}
+
+.form__row {
+  width: 100%;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+input.form__btn {
+  float: right;
+  width: auto;
+  padding: 8px 16px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+/* Img */
+.section__img {
+  width: 100%;
+  padding-top: 56.2733%;
+  background: url('https://www.w3schools.com/w3images/map.jpg') top center / cover no-repeat;
+}
+
+/* Footer */
+#footer {
+  width: 100%;
+  height: 216px;
+  padding: 64px 16px;
+  background-color: #f1f1f1;
+  font-size: 24px;
+  opacity: 0.6;
+  text-align: center;
+  
+}
+
+#footer i {
+  cursor: pointer;
+}
+
+#footer p {
+  font-size: 15px;
+  padding: 15px 0;
+}

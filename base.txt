@@ -1,0 +1,20 @@
+Phân tích project
+  1. header
+  2. main
+    2.1. slider
+    2.2. about
+    2.3. tour
+    2.4. contact
+    2.5. image
+  3. footer
+
+Nguyên tắc phân tích
+  Từ ngoài vào trong
+  Từ trên xuống dưới
+  Từ tổng quan đến chi tiết
+
+Thứ tự phân tích
+  Vị trí
+  Kích thước
+  Màu sắc
+  Kiểu dáng
